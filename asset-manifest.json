@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/hotelsSearch/static/css/main.488fe08d.css",
+    "main.js": "/hotelsSearch/static/js/main.2d0bd3e1.js",
+    "static/js/787.afac712e.chunk.js": "/hotelsSearch/static/js/787.afac712e.chunk.js",
+    "static/media/login-background.jpg": "/hotelsSearch/static/media/login-background.4be801bac076965826e0.jpg",
+    "static/media/mock-3.jpg": "/hotelsSearch/static/media/mock-3.553b980bbc054b57da0c.jpg",
+    "static/media/mock-4.jpg": "/hotelsSearch/static/media/mock-4.9dbf74a2908ab70d503a.jpg",
+    "static/media/mock-2.jpg": "/hotelsSearch/static/media/mock-2.25f4eaaf9cb0256ce935.jpg",
+    "static/media/mock-1.jpg": "/hotelsSearch/static/media/mock-1.41db5618f2a50d590be2.jpg",
+    "static/media/error404.svg": "/hotelsSearch/static/media/error404.d1e1632e390ff2517b662985bf2e997b.svg",
+    "static/media/house.svg": "/hotelsSearch/static/media/house.f04b7e70606c0c44ca61bdf725d26771.svg",
+    "static/media/star.svg": "/hotelsSearch/static/media/star.7b96cc905fb5b2a073c48ecdaa040073.svg",
+    "static/media/heart.svg": "/hotelsSearch/static/media/heart.9140b2a9285fbf0454edf4a104055d72.svg",
+    "index.html": "/hotelsSearch/index.html",
+    "static/media/log-out.svg": "/hotelsSearch/static/media/log-out.5b96cc98f452756d1ae207449cc8437c.svg",
+    "static/media/vectorRight.svg": "/hotelsSearch/static/media/vectorRight.5323f464a22d0940a575ecdddd59bb29.svg",
+    "main.488fe08d.css.map": "/hotelsSearch/static/css/main.488fe08d.css.map",
+    "main.2d0bd3e1.js.map": "/hotelsSearch/static/js/main.2d0bd3e1.js.map",
+    "787.afac712e.chunk.js.map": "/hotelsSearch/static/js/787.afac712e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.488fe08d.css",
+    "static/js/main.2d0bd3e1.js"
+  ]
+}
