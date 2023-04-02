@@ -1,0 +1,36 @@
+@import "../../../styles/common";
+
+.favorites {
+  flex-grow: 1;
+  min-height: 0;
+
+  h1 {
+    margin: 0 0 32px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: $text-black;
+  }
+
+  .sort {
+    display: flex;
+    gap: 8px;
+    margin: 0 0 16px;
+  }
+
+  .list {
+    padding: 0 14px 0 0;
+    overflow-y: auto;
+    @include custom-scrollbar;
+
+    .noFavorites {
+      margin: 15px 0 0;
+      text-align: center;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: -0.408px;
+      color: #878787;
+    }
+  }
+}

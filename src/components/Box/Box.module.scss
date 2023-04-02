@@ -1,0 +1,11 @@
+@import "../../styles/common";
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 32px;
+  box-shadow: 0 4px 33px rgba($black, 0.04);
+  border-radius: 16px;
+  background: $white;
+}

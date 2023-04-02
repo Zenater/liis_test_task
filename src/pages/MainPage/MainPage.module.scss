@@ -1,0 +1,28 @@
+@import "../../styles/common";
+
+.container {
+  display: flex;//*TODO
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+  background: #F4F4F4;
+
+  .content {
+    //display: flex;
+    //justify-content: center;
+    @include center(flex, center);
+    align-items: stretch;
+    flex-grow: 1;
+    gap: 24px;
+    min-height: 0;
+    margin: 0 auto;
+    padding: 0 30px 30px;
+
+    .leftPanel {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      flex: 360px 0 0;
+    }
+  }
+}

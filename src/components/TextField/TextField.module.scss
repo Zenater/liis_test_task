@@ -1,0 +1,45 @@
+@import "./src/styles/common";
+
+.textField {
+  label {
+    display: block;
+    margin: 0 0 7px;
+    font-size: 16px;
+    line-height: 19px;
+    color: $text-black;
+
+    &.bold {
+      font-weight: 550;
+    }
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: $text-black;
+    border: 1px solid $gray;
+    border-radius: 4px;
+  }
+
+  p {
+    margin: 7px 0 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: $text-error;
+    position: absolute;
+  }
+
+  .pir {
+    margin: 0 0 24px;
+  }
+
+
+  &.error {
+    input, label {
+      color: $text-error;
+    }
+  }
+}

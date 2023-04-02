@@ -1,0 +1,28 @@
+@import "./variables";
+
+@mixin custom-scrollbar {
+  scrollbar-color: $primary #E7E7E7;
+  scrollbar-gutter: stable;
+  scrollbar-arrow-color: $primary;
+  scrollbar-base-color: transparent;
+
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #E7E7E7;
+    border-radius: 100vmax;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $primary;
+    border-radius: 100vmax;
+  }
+}
+
+@mixin center($display,$space-between) {
+  display: $display;
+  justify-content:  $space-between;
+}
+

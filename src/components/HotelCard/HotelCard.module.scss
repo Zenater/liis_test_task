@@ -1,0 +1,114 @@
+@import "../../styles/common";
+
+.hotelCard {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 15px 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #E7E7E7;
+  }
+
+  .iconWrapper {
+    flex-shrink: 0;
+    margin: 0 24px 0 0;
+    padding: 15px;
+    background: rgba($primary, 0.05);
+    border-radius: 100vmax;
+
+    svg {
+      color: $primary;
+    }
+  }
+
+  .data {
+    width: 100%;
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      h2 {
+        margin: 0 10px 0 0;
+        font-size: 17px;
+        line-height: 22px;
+        letter-spacing: -0.408px;
+        color: $text-black;
+      }
+
+      .heart {
+        display: block;
+        height: fit-content;
+        cursor: pointer;
+
+        svg {
+          color: #C4C4C4;
+          transition: 0.15s;
+        }
+
+        input:not(:checked) + svg * {
+          fill: none;
+        }
+
+        input:checked + svg {
+          color: #E55858;
+        }
+
+        input {
+          appearance: none;
+          margin: 0;
+        }
+      }
+    }
+
+    .period {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin: 0 0 5px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: -0.408px;
+      color: #878787;
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+
+      .rating {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+
+        svg {
+          color: #C4C3B5;
+
+          &.fill {
+            color: #CDBC1E;
+          }
+        }
+      }
+
+      .price {
+        font-style: normal;
+        font-size: 11px;
+        line-height: 22px;
+        letter-spacing: -0.408px;
+        color: #878787;
+
+        span {
+          display: inline-block;
+          width: 74px;
+          margin: 0 0 0 8px;
+          text-align: right;
+          font-weight: 400;
+          font-size: 17px;
+          color: $text-black;
+        }
+      }
+    }
+  }
+}

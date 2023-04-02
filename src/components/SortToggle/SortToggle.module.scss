@@ -1,0 +1,61 @@
+@import "./src/styles/common";
+
+.sortToggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  //font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.408px;
+  color: #99A0A3;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+
+  .hidden {
+    appearance: none;
+  }
+
+  .arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+
+    .arrow {
+      display: block;
+      appearance: none;
+      transform: rotate(45deg);
+      width: 6px;
+      height: 6px;
+      border-color: #ADADAD;
+      border-width: 2px 0 0 2px;
+      border-style: solid;
+      cursor: pointer;
+
+      &:last-of-type {
+        transform: rotate(-135deg);
+        margin: -2px 0 0;
+      }
+    }
+  }
+}
+
+.sortToggle.selected {
+  color: #41522E;
+  border: 1px solid $primary;
+
+  .arrow {
+    border-color: #C6CCC1;
+
+    &.highlight {
+      border-color: $primary;
+    }
+  }
+}

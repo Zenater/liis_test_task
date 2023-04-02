@@ -1,0 +1,36 @@
+@import "./src/styles/common";
+@import "./src/styles/variables";
+
+$gradient: linear-gradient(104.34deg, $primary -15.34%, $secondary 145.95%);
+
+.button {
+  padding: 15px 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: $white;
+  background: $gradient;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 0 2px rgba($black, 0.15);
+  cursor: pointer;
+
+  &.fill {
+    width: 100%;
+  }
+
+  &:hover {
+    background: linear-gradient(rgba($white, 0.2), rgba($white, 0.2)), $gradient;
+  }
+
+  &:active {
+    background: linear-gradient(rgba($black, 0.2), rgba($black, 0.2)), $gradient;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    color: $gray;
+  }
+}

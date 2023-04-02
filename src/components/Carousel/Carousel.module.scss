@@ -1,0 +1,28 @@
+@import "./src/styles/common";
+
+.carousel {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+  height: 180px;
+  padding: 0 0 28px;
+  overflow-x: auto;
+  scrollbar-width: none;
+
+  &.loading {
+    opacity: 25%;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  img {
+    flex-shrink: 0;
+    width: 164px;
+    height: 149px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgba($black, 0.15);
+  }
+}
